@@ -33,7 +33,7 @@ function mooText() {
     textArea.value = text;
 }
 
-// Add event listeners
+//listeners
 document.getElementById("biggerButton").onclick = biggerText;
 document.getElementById("fancyShmancy").onchange = applyStyle;
 document.getElementById("boringBetty").onchange = applyStyle;
